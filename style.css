@@ -1,0 +1,13 @@
+body{
+    background-image: url("Images/background-image.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-color: darkgray; 
+}
+
+div{
+    position:absolute; 
+    right: 700px;  
+}
+
