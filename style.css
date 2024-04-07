@@ -1,25 +1,40 @@
 *{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-body{
-    background-image: url("Images/background-image.jpg");
-    background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center;
-    background-color: darkgray; 
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
 }
 
 div{
-    position:absolute; 
-    right: 550px;  
+    margin-top: 70px; 
+    margin-bottom: 80px;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 200px;
+    border: 8px solid darkgrey;
+    text-align: center;
+    height: 900px;
+    background-image: url(Images/background-cooking-recipes-27254052.webp);
+    background-size: cover;
+    
 }
 
-p{
+h1{
+    padding: 20px;
+}
+
+.start{
     font-size: 22px;
+    padding: 20px;
+    width: 300px;    
+}
+
+.end{
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 50px;
 }
 
 a{
     font-size: 20px;
     text-decoration: none;
+    
 }
